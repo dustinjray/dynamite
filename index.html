@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/607f664965.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<audio src="sound/beep-7.wav" id="beep"></audio>
+<audio src="sound/beep-5.wav" id="buzz"></audio>
+<div class="container">
+    <div class="timer">
+        <h1 id="timer">--</h1>
+    </div>
+    <div class="button-container">
+        <button id="add-ten" class="button">
+            <span>
+                <i class="far fa-clock button-icon"></i>
+            </span>
+            <span class="amount">+10</span>
+        </button>
+        <button id="add-twenty" class="button">
+            <span>
+                <i class="far fa-clock button-icon"></i>
+            </span>
+            <span class="amount">+20</span>
+        </button>
+        <button id="add-thirty" class="button">
+            <span>
+                <i class="far fa-clock button-icon"></i>
+            </span>
+            <span class="amount">+30</span>
+        </button>
+        <button id="add-five" class="button invisible">
+            <span>
+                <i class="fas fa-fire button-icon"></i>
+            </span>
+            <span class="amount">+5</span>
+        </button>
+    </div>
+</div>
+
+<script src="timer-brain.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    color: white;
+    font-size: 15rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img/background-portrait.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    min-width: 100%;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    min-height: 30vh;
+    min-width: 95%;
+}
+
+button {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 33vw;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin: .3rem;
+    text-align: center;
+    max-width: 250px;
+}
+
+.button-icon {
+    color: white;
+    font-size: 5rem;
+}
+
+.amount {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: -.7rem;
+}
+
+.invisible {
+    display: none;
+}
+
+.centered {
+    justify-content: center;
+}
